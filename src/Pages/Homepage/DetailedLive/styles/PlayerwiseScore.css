@@ -1,0 +1,47 @@
+.playerwisescore-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    gap: 20px;
+}
+.twoinnings{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.matchstats{
+    width: 100%;
+}
+
+.stats{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.bowlingstats{
+    width: 100%;
+    
+}
+
+.battingstats{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media all and (max-width:500px){
+    .matchstats{
+        width: 100%;
+    }
+    .battingstats{
+        width: 100%;
+    }
+    .bowlingstats{
+        width: 100%;
+    }
+}

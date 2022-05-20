@@ -1,0 +1,15 @@
+.bowlingtable {
+    border-collapse: collapse;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.623);
+    border: 1px solid rgba(255, 255, 255, 0.068);
+  }
+  
+.bowlingtable td,.bowlingtable th {
+    text-align: left;
+    padding: 8px;
+}
+.bowlingtable td{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.068);
+    font-size: 0.8rem;    
+}

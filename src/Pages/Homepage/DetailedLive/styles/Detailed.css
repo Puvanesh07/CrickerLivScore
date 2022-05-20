@@ -1,0 +1,63 @@
+.lve{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.lve-nav{
+    height: 10vh;
+}
+
+.lve-nxt{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.lnc{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lve-info{
+    width: 25%;
+    height: 100%;
+}
+
+.lve-scoreboard{
+    width: 45%;
+    height: 100%;
+}
+
+.lve-team{
+    width: 30%;
+    height: 100%;
+}
+
+@media all and (max-width:850px){
+    .lve{
+        width: 100%;
+    }
+    .lve-nxt{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lve-info{
+        width: 100%;
+        height: 100vh;
+    }
+    .lve-scoreboard{
+        width: 100%;
+        height: 400vh;
+    }
+    .lve-team{
+        width: 100%;
+        height: 100vh;
+    }
+}

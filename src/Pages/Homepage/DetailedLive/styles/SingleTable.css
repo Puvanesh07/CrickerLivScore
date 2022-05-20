@@ -1,0 +1,60 @@
+.player-container{
+  width: 90%;
+}
+.playertable {
+    border-collapse: collapse;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.781);
+    border: 0.1px solid rgba(255, 255, 255, 0.199);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+.playertable td, .playertable th {
+    text-align: left;
+    padding: 20px;
+  }
+
+.playertable td{
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.199);
+  font-size: 0.9rem;
+}
+  
+
+.heading-table{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.199);
+  font-size: 1.2rem;
+}
+
+.out-style{
+  font-size: 0.6rem;
+  letter-spacing: 0.3px;
+  font-weight:400;
+  color: rgba(255, 255, 255, 0.473);
+}
+
+.playerstatus{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.status{
+  border-left: 5px solid orangered;
+}
+
+@media all and (max-width:600px){
+  .player-container{
+    width: 100%;
+  }
+  .playertable td, .playertable th {
+    text-align: left;
+    padding: 10px;
+  }
+}
+
+@media all and (max-width:500px){
+  .playertable td, .playertable th {
+    text-align: left;
+    padding: 4px;
+  }
+}

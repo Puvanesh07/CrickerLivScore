@@ -1,0 +1,43 @@
+.styledtable{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.8em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 95%;
+    color:rgba(255, 255, 255, 0.87);
+}
+
+.styledtable th,
+.styledtable td {
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.295);
+
+}
+
+.styledtable th{
+    font-weight: bold
+}
+
+@media all and (max-width:1200px){
+    .styledtable{
+        width: 95%;
+    }
+    .styledtable th,
+    .styledtable td{
+        padding:4px;
+    }
+}
+
+@media all and (max-width:952px){
+    .styledtable th,
+    .styledtable td{
+        padding:2px;
+    }
+}
+
+@media all and (max-width:952px){
+    .styledtable th,
+    .styledtable td{
+        padding:1px;
+    }
+}

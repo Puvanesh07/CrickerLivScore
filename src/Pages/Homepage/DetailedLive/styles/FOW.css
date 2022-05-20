@@ -1,0 +1,66 @@
+.FOW-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.FOWbox{
+    width: 85%;
+}
+
+.twoinnings
+{
+    margin-top: 20px;
+}
+.FOWInnerbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.FOWInnercontents{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(199, 199, 199, 0.144);
+    padding: 10px;
+    gap: 2px;
+    color: rgba(255, 255, 255, 0.623);
+    border-radius: 5px;
+}
+
+.wkts{
+    width: 100%;
+    font-weight: 500;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.295);
+    padding: 5px;
+}
+
+.whotook{
+    width: 100%;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 5px;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.w{
+    background-color: rgba(173, 93, 120, 0.979);
+    height: 25px;
+    width: 25px;
+    border-radius:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comm{
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    padding: 10px;
+}

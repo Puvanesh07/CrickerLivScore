@@ -1,0 +1,13 @@
+.stats-table{
+    height: 120px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.068);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.747);
+    border-radius: 5px;
+}
+
